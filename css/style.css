@@ -649,7 +649,7 @@ ol {
 }
 
 .nav-item {
-	background: white;
+	background: #252525;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -1715,6 +1715,10 @@ ol {
 	font-size: 16px;
 	line-height: 39px;
 }
+.how-active1 {
+   color: #333;
+   border-color: #797979;
+ }
 
 .filter-widget .fw-brand-check .bc-item {
 	margin-bottom: 3px;
@@ -2451,7 +2455,9 @@ ol {
 
 .specification-table table tr td .p-stock,
 .specification-table table tr td .p-size,
-.specification-table table tr td .p-code {
+.specification-table table tr td .p-code,
+.specification-table table tr td .p-color,
+.specification-table table tr td .p-type {
 	font-size: 16px;
 	color: #4c4c4c;
 	font-weight: 700;
